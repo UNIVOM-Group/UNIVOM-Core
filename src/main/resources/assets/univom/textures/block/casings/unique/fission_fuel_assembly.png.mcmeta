@@ -1,0 +1,5 @@
+{
+  "ldlib": {
+    "connection": "univom:block/casings/unique/fission_fuel_assembly_ctm"
+   }
+}

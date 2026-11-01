@@ -1,0 +1,29 @@
+def packMods = providers.gradleProperty("pack_mods_dir")
+
+tasks.register('deployToPack', Copy) {
+    group = 'univom'
+    description = 'Copy the reobfuscated jar into the modpack instance mods folder'
+    dependsOn tasks.named('reobfJar')
+    onlyIf {
+        if (!packMods.isPresent()) {
+            logger.lifecycle("pack_mods_dir is not set in gradle.properties, skipping")
+            return false
+        }
+        return true
+    }
+    from tasks.named('reobfJar').flatMap { it.archiveFile }
+    into { packMods.isPresent() ? file(packMods.get()) : layout.buildDirectory.dir("deploy").get().asFile }
+    doFirst {
+        def target = file(packMods.get())
+        if (!target.isDirectory()) {
+            throw new GradleException("pack_mods_dir is not an existing directory: ${target}")
+        }
+        target.listFiles().findAll { it.isFile() && it.name ==~ /^UNIVOM-.*\.jar$/ }.each {
+            logger.lifecycle("removing stale ${it.name}")
+            it.delete()
+        }
+    }
+    doLast {
+        logger.lifecycle("deployed to ${file(packMods.get())}")
+    }
+}

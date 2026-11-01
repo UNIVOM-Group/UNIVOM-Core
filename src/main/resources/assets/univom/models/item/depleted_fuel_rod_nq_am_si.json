@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "univom:item/depleted_fuel_rod_nq_am_si"
+  }
+}

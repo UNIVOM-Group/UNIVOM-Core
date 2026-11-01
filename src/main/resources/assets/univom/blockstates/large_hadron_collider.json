@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "univom:block/machine/large_hadron_collider",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/large_hadron_collider"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/large_hadron_collider",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "univom:block/machine/large_hadron_collider",
+      "y": 270
+    }
+  }
+}

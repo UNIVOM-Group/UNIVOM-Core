@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "#side",
+    "side": "gtceu:block/casings/solid/machine_casing_solid_steel",
+    "top": "univom:block/casings/unique/mob_crushing_wheels_active"
+  }
+}

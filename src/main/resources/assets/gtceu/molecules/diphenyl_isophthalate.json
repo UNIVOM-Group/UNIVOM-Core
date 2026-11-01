@@ -1,0 +1,400 @@
+{
+  "contents": [
+    {
+      "type": "atom",
+      "index": 0,
+      "element": "O",
+      "x": 2.81535,
+      "y": 0.91464
+    },
+    {
+      "type": "atom",
+      "index": 1,
+      "x": 1.94941,
+      "y": 0.4145
+    },
+    {
+      "type": "atom",
+      "index": 2,
+      "element": "O",
+      "x": 1.94957,
+      "y": -0.5855
+    },
+    {
+      "type": "atom",
+      "index": 3,
+      "x": 2.81568,
+      "y": -1.08536
+    },
+    {
+      "type": "atom",
+      "index": 4,
+      "x": 2.816,
+      "y": -2.08591
+    },
+    {
+      "type": "atom",
+      "index": 5,
+      "x": 3.68234,
+      "y": -2.58647
+    },
+    {
+      "type": "atom",
+      "index": 6,
+      "x": 4.54837,
+      "y": -2.08647
+    },
+    {
+      "type": "atom",
+      "index": 7,
+      "x": 4.54805,
+      "y": -1.08591
+    },
+    {
+      "type": "atom",
+      "index": 8,
+      "x": 3.6817,
+      "y": -0.58536
+    },
+    {
+      "type": "atom",
+      "index": 9,
+      "x": 1.0833,
+      "y": 0.91436
+    },
+    {
+      "type": "atom",
+      "index": 10,
+      "x": 1.0818,
+      "y": 1.90915
+    },
+    {
+      "type": "atom",
+      "index": 11,
+      "x": 0.21653,
+      "y": 2.41046
+    },
+    {
+      "type": "atom",
+      "index": 12,
+      "x": -0.64723,
+      "y": 1.91698
+    },
+    {
+      "type": "atom",
+      "index": 13,
+      "x": -0.64907,
+      "y": 0.91643
+    },
+    {
+      "type": "atom",
+      "index": 14,
+      "x": -1.51593,
+      "y": 0.41788
+    },
+    {
+      "type": "atom",
+      "index": 15,
+      "element": "O",
+      "x": -1.5176,
+      "y": -0.58212
+    },
+    {
+      "type": "atom",
+      "index": 16,
+      "element": "O",
+      "x": -2.38111,
+      "y": 0.91933
+    },
+    {
+      "type": "atom",
+      "index": 17,
+      "x": -3.24798,
+      "y": 0.42078
+    },
+    {
+      "type": "atom",
+      "index": 18,
+      "x": -4.11372,
+      "y": 0.92237
+    },
+    {
+      "type": "atom",
+      "index": 19,
+      "x": -4.98131,
+      "y": 0.42396
+    },
+    {
+      "type": "atom",
+      "index": 20,
+      "x": -4.98314,
+      "y": -0.57604
+    },
+    {
+      "type": "atom",
+      "index": 21,
+      "x": -4.11739,
+      "y": -1.07763
+    },
+    {
+      "type": "atom",
+      "index": 22,
+      "x": -3.24981,
+      "y": -0.57922
+    },
+    {
+      "type": "atom",
+      "index": 23,
+      "x": 0.2162,
+      "y": 0.41512
+    },
+    {
+      "type": "bond",
+      "a": 0,
+      "b": 1,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "centered": true
+    },
+    {
+      "type": "bond",
+      "a": 1,
+      "b": 2,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 2,
+      "b": 3,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 3,
+      "b": 4,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 0,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 4,
+      "b": 5,
+      "lines": [
+        "solid"
+      ],
+      "ring": 0
+    },
+    {
+      "type": "bond",
+      "a": 5,
+      "b": 6,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 0,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 6,
+      "b": 7,
+      "lines": [
+        "solid"
+      ],
+      "ring": 0
+    },
+    {
+      "type": "bond",
+      "a": 7,
+      "b": 8,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 0,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 3,
+      "b": 8,
+      "lines": [
+        "solid"
+      ],
+      "ring": 0
+    },
+    {
+      "type": "bond",
+      "a": 1,
+      "b": 9,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 9,
+      "b": 10,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 2,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 10,
+      "b": 11,
+      "lines": [
+        "solid"
+      ],
+      "ring": 2
+    },
+    {
+      "type": "bond",
+      "a": 11,
+      "b": 12,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 2,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 12,
+      "b": 13,
+      "lines": [
+        "solid"
+      ],
+      "ring": 2
+    },
+    {
+      "type": "bond",
+      "a": 13,
+      "b": 14,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 14,
+      "b": 15,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "centered": true
+    },
+    {
+      "type": "bond",
+      "a": 14,
+      "b": 16,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 16,
+      "b": 17,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 17,
+      "b": 18,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 1,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 18,
+      "b": 19,
+      "lines": [
+        "solid"
+      ],
+      "ring": 1
+    },
+    {
+      "type": "bond",
+      "a": 19,
+      "b": 20,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 1,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 20,
+      "b": 21,
+      "lines": [
+        "solid"
+      ],
+      "ring": 1
+    },
+    {
+      "type": "bond",
+      "a": 21,
+      "b": 22,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 1,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 17,
+      "b": 22,
+      "lines": [
+        "solid"
+      ],
+      "ring": 1
+    },
+    {
+      "type": "bond",
+      "a": 13,
+      "b": 23,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "ring": 2,
+      "aromatic": true
+    },
+    {
+      "type": "bond",
+      "a": 9,
+      "b": 23,
+      "lines": [
+        "solid"
+      ],
+      "ring": 2
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "contents": [
+    {
+      "type": "atom",
+      "index": 0,
+      "element": "N",
+      "left": [
+        "H",
+        2
+      ],
+      "x": -0.5,
+      "y": 0.0
+    },
+    {
+      "type": "atom",
+      "index": 1,
+      "element": "Cl",
+      "x": 0.5,
+      "y": 0.0
+    },
+    {
+      "type": "bond",
+      "a": 0,
+      "b": 1,
+      "lines": [
+        "solid"
+      ]
+    }
+  ]
+}

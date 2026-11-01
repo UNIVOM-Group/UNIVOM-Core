@@ -1,0 +1,395 @@
+{
+  "parent": "minecraft:block/block",
+  "dynamic_renders": [
+    {
+      "type": "univom:part_tier_casing"
+    }
+  ],
+  "loader": "gtceu:machine",
+  "machine": "univom:exxonmobil_chemical_plant",
+  "texture_overrides": {
+    "all": "gtceu:block/casings/solid/machine_casing_solid_steel"
+  },
+  "variants": {
+    "casing_tier=1,is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=1,is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_solid_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=2,is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_frost_proof",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=3,is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_clean_stainless_steel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=4,is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_stable_titanium",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    },
+    "casing_tier=5,is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
+          "overlay_front": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active",
+          "overlay_front_emissive": "gtceu:block/multiblock/large_chemical_reactor/overlay_front_active_emissive"
+        }
+      }
+    }
+  }
+}

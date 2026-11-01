@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "univom:block/vent_valve/top",
+    "side": "univom:block/vent_valve/side",
+    "top": "univom:block/vent_valve/top"
+  }
+}

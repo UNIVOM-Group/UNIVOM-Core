@@ -1,0 +1,10 @@
+{
+  "contents": [
+    { "type": "atom", "index": 0, "element": "Na⁺", "x": -1.9, "y": 0.0 },
+    { "type": "atom", "index": 1, "element": "H", "x": -0.8660254, "y": -0.5 },
+    { "type": "atom", "index": 2, "element": "N⁻", "x": 0.0, "y": 0.0 },
+    { "type": "atom", "index": 3, "element": "H", "x": 0.8660254, "y": -0.5 },
+    { "type": "bond", "a": 1, "b": 2 },
+    { "type": "bond", "a": 2, "b": 3 }
+  ]
+}

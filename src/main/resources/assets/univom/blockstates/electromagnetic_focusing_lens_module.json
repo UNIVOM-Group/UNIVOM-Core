@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/electromagnetic_focusing_lens_module"
+    }
+  }
+}

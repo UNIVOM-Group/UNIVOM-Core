@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "univom:block/machine/uiv_wireless_energy_input_hatch_4096a",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "univom:block/machine/uiv_wireless_energy_input_hatch_4096a",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/uiv_wireless_energy_input_hatch_4096a"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/uiv_wireless_energy_input_hatch_4096a",
+      "y": 180
+    },
+    "facing=up": {
+      "gtceu:z": 180,
+      "model": "univom:block/machine/uiv_wireless_energy_input_hatch_4096a",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "univom:block/machine/uiv_wireless_energy_input_hatch_4096a",
+      "y": 270
+    }
+  }
+}

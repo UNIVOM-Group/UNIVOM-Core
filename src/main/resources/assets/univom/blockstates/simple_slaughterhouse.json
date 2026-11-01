@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "univom:block/machine/simple_slaughterhouse",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/simple_slaughterhouse"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/simple_slaughterhouse",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "univom:block/machine/simple_slaughterhouse",
+      "y": 270
+    }
+  }
+}

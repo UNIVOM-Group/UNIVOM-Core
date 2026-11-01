@@ -1,0 +1,52 @@
+mixin {
+    var refMap = add sourceSets.main, "univom.refmap.json"
+    slimJar.from refMap
+    config 'univom.mixins.json'
+}
+
+legacyForge {
+    version = libs.versions.minecraftForge.get()
+
+    parchment {
+        minecraftVersion = libs.versions.minecraft.get()
+        mappingsVersion = libs.versions.parchment.get()
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+
+    runs {
+        client {
+            client()
+            sourceSet = sourceSets.main
+            ideName = "Client"
+
+            systemProperty('forge.enabledGameTestNamespaces', project.mod_id)
+        }
+
+        server {
+            server()
+            sourceSet = sourceSets.main
+            ideName = "Server"
+
+            gameDirectory.set(file("run/server"))
+            programArgument '--nogui'
+            systemProperty('forge.enabledGameTestNamespaces', project.mod_id)
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

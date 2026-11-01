@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "univom:block/machine/hv_oxygen_distributor",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/hv_oxygen_distributor"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/hv_oxygen_distributor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "univom:block/machine/hv_oxygen_distributor",
+      "y": 270
+    }
+  }
+}

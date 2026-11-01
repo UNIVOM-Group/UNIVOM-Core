@@ -1,0 +1,9 @@
+{
+  "values": [
+    "univom:large_hadron_collider",
+    "univom:cms_module",
+    "univom:atlas_module",
+    "univom:alice_module",
+    "univom:lhcb_module"
+  ]
+}

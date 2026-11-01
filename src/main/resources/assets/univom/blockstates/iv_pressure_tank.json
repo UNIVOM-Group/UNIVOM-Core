@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/pressure_tank"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "univom:block/casings/unique/coolant_delivery_module"
+  }
+}

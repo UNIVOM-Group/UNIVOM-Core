@@ -1,0 +1,5 @@
+{
+  "ldlib": {
+    "connection": "univom:block/casings/unique/electromagnetic_acceleration_coil_block_ctm"
+  }
+}

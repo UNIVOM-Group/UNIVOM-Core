@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "package": "com.mrlacar.univom.mixin",
+  "refmap": "univom.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "ae2.client.gui.style.FluidBlitterMixin",
+    "adastra.client.screens.PlanetUnlockMixin",
+    "emi.api.stack.FluidEmiStackMixin",
+    "lowdraglib.gui.widget.ComponentPanelWidgetMixin",
+    "minecraft.client.gui.screens.inventory.tooltip.ClientTextTooltipAccessor"
+  ],
+  "mixins": [
+    "gtceu.GTEMIPluginMixin",
+    "gtceu.api.capability.recipe.ItemRecipeCapabilityMixin",
+    "gtceu.api.pattern.BlockPatternAccessor",
+    "gtceu.api.recipe.lookup.RecipeDBMixin",
+    "gtceu.api.machine.multiblock.MultiblockDisplayTextMixin",
+    "gtceu.data.recipe.misc.RecyclingRecipesMixin",
+    "gtceu.integration.xei.widgets.GTRecipeWidgetMixin",
+    "minecraft.world.entity.LivingEntityMixin",
+    "minecraft.world.item.crafting.IngredientMixin",
+    "minecraft.world.level.block.BaseFireBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

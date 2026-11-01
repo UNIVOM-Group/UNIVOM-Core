@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "univom:block/normal_beam_pipe"
+    },
+    "active=true": {
+      "model": "univom:block/normal_beam_pipe_active"
+    }
+  }
+}

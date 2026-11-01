@@ -1,0 +1,55 @@
+dependencies {
+    compileOnly(libs.jetbrains.annotations)
+    // Registrate
+    modImplementation(forge.registrate)
+    // GTCEu
+    modImplementation(variantOf(forge.gtceu) { classifier("slim") })
+    modImplementation(forge.ldlib)
+    modImplementation(forge.configuration)
+    // Mixin (& Extras)
+    annotationProcessor(variantOf(libs.mixin) { classifier("processor") })
+    annotationProcessor(forge.mixinExtras.common)
+    api(forge.mixinExtras.common)
+    // KubeJS
+    modImplementation(forge.kubejs)
+    modImplementation(forge.rhino)
+    modImplementation(forge.architectury)
+    // XEI
+    modImplementation(forge.emi)
+    // Jade
+    modImplementation(forge.jade)
+    // Spark (dev profiling only, not shipped)
+    modRuntimeOnly(forge.spark)
+    // Curios
+    modImplementation(forge.curios)
+    // AE2
+    modImplementation(forge.ae2)
+    modImplementation(forge.guideme)
+    modImplementation(forge.glodium)
+    modImplementation(forge.extendedae)
+    modImplementation(forge.clothConfig)
+    // CC Tweaked
+    modImplementation(forge.ccTweaked)
+    // Ad Astra
+    modRuntimeOnly(forge.yabn)
+    modRuntimeOnly(forge.byteCodecs)
+    modImplementation(forge.resourcefullLib)
+    modImplementation(forge.resourcefullConfig)
+    modImplementation(forge.botarium)
+    modImplementation(forge.adAstra)
+    // FD
+    modImplementation(forge.fd)
+    // FTB
+    modImplementation(forge.ftblibrary.cm)
+    modImplementation(forge.ftbultimine.cm)
+    modImplementation(forge.ftbteam.cm)
+    // Twilight Forest
+    modImplementation(forge.twilightforest)
+    // Construction Wand
+    modImplementation(forge.constructionwand)
+    //UAE 2
+    modImplementation(jarJar("dev:UNIVOMAppliedEnergistics2:1.0.0"))
+    //Obscure Tooltips
+    modImplementation(forge.fragmentum)
+    modImplementation(forge.obscureTooltips)
+}

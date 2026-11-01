@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "univom:block/machine/atlas_module",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/atlas_module"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/atlas_module",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "univom:block/machine/atlas_module",
+      "y": 270
+    }
+  }
+}

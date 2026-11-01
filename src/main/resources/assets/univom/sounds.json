@@ -1,0 +1,14 @@
+{
+  "pressure_vent": {
+    "sounds": [
+      "minecraft:random/fizz"
+    ],
+    "subtitle": "univom.subtitle.pressure_vent"
+  },
+  "pressure_warning": {
+    "sounds": [
+      "minecraft:random/fizz"
+    ],
+    "subtitle": "univom.subtitle.pressure_warning"
+  }
+}

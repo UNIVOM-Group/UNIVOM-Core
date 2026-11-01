@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "univom:item/particles/model_higgs_boson"
+  }
+}

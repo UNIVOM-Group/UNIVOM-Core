@@ -1,0 +1,9 @@
+{
+  "ldlib": {
+    "connection": "univom:block/casings/unique/mob_crushing_wheels_active_ctm"
+  },
+  "animation": {
+    "interpolate": false,
+    "frametime": 2
+  }
+}

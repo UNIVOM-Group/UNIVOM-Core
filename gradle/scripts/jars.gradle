@@ -1,0 +1,42 @@
+tasks.register('slimJar', Jar) {
+    archiveClassifier = "dev-slim"
+    from sourceSets.main.output
+}
+
+obfuscation {
+    reobfuscate(tasks.named('slimJar'), sourceSets.main) {
+        archiveClassifier = "slim"
+    }
+}
+
+java {
+    artifacts.archives(reobfSlimJar)
+    withSourcesJar()
+}
+
+sourcesJar {
+    exclude {
+        sourceSets.main.allSource.contains it.file
+    }
+    from delombok
+}
+jar.archiveClassifier = "dev"
+base {
+    archivesName = "UNIVOM"
+}
+
+afterEvaluate {
+    reobfJar.archiveClassifier = ""
+    tasks.withType(org.gradle.jvm.tasks.Jar).configureEach {
+        destinationDirectory = file('build/libs/')
+        manifest.attributes([
+                'MixinConfigs': 'univom.mixins.json',
+                'Specification-Title': project.name,
+                'Specification-Version': mod_version,
+                'Specification-Vendor': mod_authors,
+                'Implementation-Title': base.archivesName,
+                'Implementation-Version': version,
+                'Implementation-Vendor': mod_authors,
+        ])
+    }
+}

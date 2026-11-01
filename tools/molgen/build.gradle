@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.openscience.cdk:cdk-bundle:2.9'
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(17)
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+application {
+    mainClass = 'com.mrlacar.molgen.MolGen'
+}
+
+tasks.named('run') {
+    workingDir = projectDir
+    if (project.hasProperty('args')) {
+        args project.property('args').split(' ')
+    }
+}

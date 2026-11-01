@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/radio_frequency_source_machine_casing"
+    }
+  }
+}

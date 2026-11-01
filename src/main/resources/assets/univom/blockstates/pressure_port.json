@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "univom:block/machine/pressure_port",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "univom:block/machine/pressure_port",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/pressure_port"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/pressure_port",
+      "y": 180
+    },
+    "facing=up": {
+      "gtceu:z": 180,
+      "model": "univom:block/machine/pressure_port",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "univom:block/machine/pressure_port",
+      "y": 270
+    }
+  }
+}

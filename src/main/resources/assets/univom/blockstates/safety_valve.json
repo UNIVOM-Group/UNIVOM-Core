@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/safety_valve"
+    }
+  }
+}

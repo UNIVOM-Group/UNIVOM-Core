@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/QinBinYao/UNIVOM-Core/issues"
+license = "LGPL-3.0 license"
+
+[[mods]]
+modId = "univom"
+version = "${version}"
+displayName = "UNIVOM"
+authors = "MrLaCar"
+description = '''
+Core mod for UNIVOM
+'''
+logoFile = "icon.png"
+
+[[dependencies.univom]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.univom]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

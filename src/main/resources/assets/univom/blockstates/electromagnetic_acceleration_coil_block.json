@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/electromagnetic_acceleration_coil_block"
+    }
+  }
+}

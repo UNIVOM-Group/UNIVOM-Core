@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "univom:mob_crushing_wheels"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "univom:blocks/mob_crushing_wheels"
+}

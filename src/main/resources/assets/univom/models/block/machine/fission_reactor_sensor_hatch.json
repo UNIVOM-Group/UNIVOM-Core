@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "univom:fission_reactor_sensor_hatch",
+  "replaceable_textures": [
+    "bottom",
+    "top",
+    "side"
+  ],
+  "variants": {
+    "is_formed=false": {
+      "model": {
+        "parent": "univom:block/machine/part/redstone_signal_hatch",
+        "textures": {
+          "bottom": "univom:block/casings/solid/machine_casing_fission",
+          "side": "univom:block/casings/solid/machine_casing_fission",
+          "top": "univom:block/casings/solid/machine_casing_fission"
+        }
+      }
+    },
+    "is_formed=true": {
+      "model": {
+        "parent": "univom:block/machine/part/redstone_signal_hatch",
+        "textures": {
+          "bottom": "univom:block/casings/solid/machine_casing_fission",
+          "side": "univom:block/casings/solid/machine_casing_fission",
+          "top": "univom:block/casings/solid/machine_casing_fission"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "animation": {
+    "interpolate": true,
+    "frames": [
+      {"index": 0, "time": 32},
+      {"index": 1, "time": 4}
+    ]
+  },
+    "ldlib": {
+        "connection": "univom:block/casings/solid/machine_casing_fluix_titanium_alloy_ctm"
+    }
+}

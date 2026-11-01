@@ -1,0 +1,7 @@
+{
+  "parent": "gtceu:block/overlay/2_layer/front_emissive",
+  "textures": {
+    "overlay": "univom:block/overlay/machine/overlay_wireless_energy_input_hatch",
+    "overlay_emissive": "univom:block/overlay/machine/overlay_wireless_energy_input_hatch_emissive"
+  }
+}

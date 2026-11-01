@@ -1,0 +1,64 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "univom:control_rod_insert_bus",
+  "replaceable_textures": [
+    "bottom",
+    "top",
+    "side"
+  ],
+  "variants": {
+    "is_formed=false,is_painted=false": {
+      "model": {
+        "parent": "gtceu:block/machine/template/part/hatch_machine_emissive",
+        "textures": {
+          "bottom": "univom:block/casings/solid/machine_casing_fission",
+          "overlay": "gtceu:block/overlay/machine/overlay_item_hatch_input",
+          "overlay_emissive": "univom:block/overlay/machine/overlay_control_rod_insert_bus_emissive",
+          "overlay_pipe": "gtceu:block/overlay/machine/overlay_pipe",
+          "side": "univom:block/casings/solid/machine_casing_fission",
+          "top": "univom:block/casings/solid/machine_casing_fission"
+        }
+      }
+    },
+    "is_formed=false,is_painted=true": {
+      "model": {
+        "parent": "gtceu:block/machine/template/part/hatch_machine_emissive_color_ring",
+        "textures": {
+          "bottom": "univom:block/casings/solid/machine_casing_fission",
+          "overlay": "gtceu:block/overlay/machine/overlay_item_hatch_input",
+          "overlay_emissive": "univom:block/overlay/machine/overlay_control_rod_insert_bus_emissive",
+          "overlay_pipe": "gtceu:block/overlay/machine/overlay_pipe",
+          "side": "univom:block/casings/solid/machine_casing_fission",
+          "top": "univom:block/casings/solid/machine_casing_fission"
+        }
+      }
+    },
+    "is_formed=true,is_painted=false": {
+      "model": {
+        "parent": "gtceu:block/machine/template/part/hatch_machine_emissive",
+        "textures": {
+          "bottom": "univom:block/casings/solid/machine_casing_fission",
+          "overlay": "gtceu:block/overlay/machine/overlay_item_hatch_input",
+          "overlay_emissive": "univom:block/overlay/machine/overlay_control_rod_insert_bus_emissive",
+          "overlay_pipe": "gtceu:block/overlay/machine/overlay_pipe",
+          "side": "univom:block/casings/solid/machine_casing_fission",
+          "top": "univom:block/casings/solid/machine_casing_fission"
+        }
+      }
+    },
+    "is_formed=true,is_painted=true": {
+      "model": {
+        "parent": "gtceu:block/machine/template/part/hatch_machine_emissive_color_ring",
+        "textures": {
+          "bottom": "univom:block/casings/solid/machine_casing_fission",
+          "overlay": "gtceu:block/overlay/machine/overlay_item_hatch_input",
+          "overlay_emissive": "univom:block/overlay/machine/overlay_control_rod_insert_bus_emissive",
+          "overlay_pipe": "gtceu:block/overlay/machine/overlay_pipe",
+          "side": "univom:block/casings/solid/machine_casing_fission",
+          "top": "univom:block/casings/solid/machine_casing_fission"
+        }
+      }
+    }
+  }
+}

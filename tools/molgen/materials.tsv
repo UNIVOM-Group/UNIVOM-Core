@@ -1,0 +1,125 @@
+# <material id>	<SMILES>	[repeat unit subscript, optional]
+# Lines starting with # are ignored. The id may omit the namespace, in which case gtceu is assumed.
+# A third column wraps every atom in square brackets with that subscript, for polymer repeat units.
+# Output goes to out/assets/<namespace>/molecules/<name>.json — copy it into src/main/resources/.
+
+# ---- GregTech: organic chemistry ----
+gtceu:acetic_acid	CC(=O)O
+gtceu:acetic_anhydride	CC(=O)OC(C)=O
+gtceu:acetone	CC(C)=O
+gtceu:allyl_chloride	C=CCCl
+gtceu:aminophenol	Nc1ccc(O)cc1
+gtceu:ammonium_formate	[NH4+].[O-]C=O
+gtceu:benzene	c1ccccc1
+gtceu:biphenyl	c1ccc(-c2ccccc2)cc1
+gtceu:bisphenol_a	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1
+gtceu:butadiene	C=CC=C
+gtceu:butane	CCCC
+gtceu:butene	C=CCC
+gtceu:butyraldehyde	CCCC=O
+gtceu:caprolactam	O=C1CCCCCN1
+gtceu:chlorobenzene	Clc1ccccc1
+gtceu:chloroform	ClC(Cl)Cl
+gtceu:chloromethane	CCl
+gtceu:cumene	CC(C)c1ccccc1
+gtceu:cyclohexane	C1CCCCC1
+gtceu:cyclohexanone_oxime	ON=C1CCCCC1
+gtceu:diaminobenzidine	Nc1ccc(-c2ccc(N)c(N)c2)cc1N
+gtceu:dichlorobenzene	Clc1ccccc1Cl
+gtceu:dichlorobenzidine	Nc1ccc(-c2ccc(N)c(Cl)c2)cc1Cl
+gtceu:dimethylamine	CNC
+gtceu:dimethylbenzene	Cc1ccccc1C
+gtceu:dimethyldichlorosilane	C[Si](C)(Cl)Cl
+gtceu:dimethylhydrazine	CN(C)N
+gtceu:dinitrogen_tetroxide	[O-][N+](=O)[N+](=O)[O-]
+gtceu:diphenyl_isophthalate	O=C(Oc1ccccc1)c1cccc(C(=O)Oc2ccccc2)c1
+gtceu:epichlorohydrin	ClCC1CO1
+gtceu:ethane	CC
+gtceu:ethanol	CCO
+gtceu:ethenone	C=C=O
+gtceu:ethyl_tertbutyl_ether	CCOC(C)(C)C
+gtceu:ethylbenzene	CCc1ccccc1
+gtceu:ethylene	C=C
+gtceu:formamide	NC=O
+gtceu:glycerol	OCC(O)CO
+gtceu:glyceryl_trinitrate	[O-][N+](=O)OCC(O[N+](=O)[O-])CO[N+](=O)[O-]
+gtceu:isoprene	C=CC(C)=C
+gtceu:methane	C
+gtceu:methanol	CO
+gtceu:methyl_acetate	COC(C)=O
+gtceu:monochloramine	NCl
+gtceu:naphthalene	c1ccc2ccccc2c1
+gtceu:nitrobenzene	[O-][N+](=O)c1ccccc1
+gtceu:nitrochlorobenzene	[O-][N+](=O)c1ccc(Cl)cc1
+gtceu:nitrosyl_chloride	ClN=O
+gtceu:octane	CCCCCCCC
+gtceu:paracetamol	CC(=O)Nc1ccc(O)cc1
+gtceu:phenol	Oc1ccccc1
+gtceu:phthalic_acid	OC(=O)c1ccccc1C(=O)O
+gtceu:polychlorinated_biphenyl	Clc1ccccc1-c1ccccc1Cl
+gtceu:propane	CCC
+gtceu:propene	C=CC
+gtceu:styrene	C=Cc1ccccc1
+gtceu:sugar	OC[C@H]1O[C@](O)(CO)[C@@H](O)[C@@H]1O
+gtceu:tetrafluoroethylene	FC(F)=C(F)F
+gtceu:tetranitromethane	[O-][N+](=O)C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-]
+gtceu:toluene	Cc1ccccc1
+gtceu:vinyl_acetate	C=COC(C)=O
+gtceu:vinyl_chloride	C=CCl
+
+# ---- GregTech: polymers, drawn as a bracketed repeat unit ----
+gtceu:polybenzimidazole	c1ccc2[nH]c(-c3ccc(-c4nc5ccccc5[nH]4)cc3)nc2c1	n
+gtceu:polycaprolactam	NCCCCCC(=O)O	n
+gtceu:polydimethylsiloxane	O[Si](C)(C)O	n
+gtceu:polyethylene	CC	n
+gtceu:polyphenylene_sulfide	Sc1ccc(S)cc1	n
+gtceu:polytetrafluoroethylene	FC(F)C(F)F	n
+gtceu:polyvinyl_acetate	CC(OC(C)=O)	n
+gtceu:polyvinyl_chloride	CCCl	n
+gtceu:rubber	CC(C)=CC	n
+gtceu:silicone_rubber	O[Si](C)(C)O	n
+
+# ---- GregTech: molecular inorganics ----
+gtceu:ammonia	N
+gtceu:carbon_dioxide	O=C=O
+gtceu:carbon_monoxide	[C-]#[O+]
+gtceu:dichloroethane	ClCCCl
+gtceu:diethylenetriamine	NCCNCCN
+gtceu:diethylenetriamine_pentaacetonitrile	N#CCN(CC#N)CCN(CC#N)CCN(CC#N)CC#N
+gtceu:diethylenetriaminepentaacetic_acid	OC(=O)CN(CC(O)=O)CCN(CC(O)=O)CCN(CC(O)=O)CC(O)=O
+gtceu:distilled_water	O
+gtceu:formaldehyde	C=O
+gtceu:formic_acid	OC=O
+gtceu:glycolonitrile	OCC#N
+gtceu:hydrochloric_acid	Cl
+gtceu:hydrofluoric_acid	F
+gtceu:hydrogen_cyanide	C#N
+gtceu:hydrogen_peroxide	OO
+gtceu:hydrogen_sulfide	S
+gtceu:hypochlorous_acid	OCl
+gtceu:nitric_acid	O[N+](=O)[O-]
+gtceu:nitrogen_dioxide	[O-][N+]=O
+gtceu:nitrous_oxide	[N-]=[N+]=O
+gtceu:phosphoric_acid	OP(O)(O)=O
+gtceu:sulfur_dioxide	O=S=O
+gtceu:sulfur_trioxide	O=S(=O)=O
+gtceu:sulfuric_acid	OS(O)(=O)=O
+gtceu:titanium_tetrachloride	Cl[Ti](Cl)(Cl)Cl
+gtceu:water	O
+
+# ---- UNIVOM: own chemistry materials ----
+gtceu:chlorosulfuric_acid	OS(Cl)(=O)=O
+gtceu:hydrogen_chloride	Cl
+gtceu:iron_ii_sulfate	[Fe+2].[O-]S([O-])(=O)=O
+gtceu:oleum	OS(=O)(=O)OS(O)(=O)=O
+gtceu:silicon_tetrachloride	Cl[Si](Cl)(Cl)Cl
+gtceu:sodium_acetate	CC(=O)[O-].[Na+]
+gtceu:sodium_amide	[Na+].[NH2-]
+gtceu:sodium_fluoride	[Na+].[F-]
+gtceu:sodium_sulfate	[Na+].[Na+].[O-]S([O-])(=O)=O
+gtceu:trifluoroacetic_acid	OC(=O)C(F)(F)F
+gtceu:trisodium_phosphate	[Na+].[Na+].[Na+].[O-]P([O-])([O-])=O
+gtceu:zinc_chloride	Cl[Zn]Cl
+gtceu:ammonium_acetate	CC(=O)[O-].[NH4+]
+gtceu:ammonium_phosphate	[NH4+].[NH4+].[NH4+].[O-]P([O-])([O-])=O
+gtceu:ammonium_sulfate	[NH4+].[NH4+].[O-]S([O-])(=O)=O

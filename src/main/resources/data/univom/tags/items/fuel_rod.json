@@ -1,0 +1,12 @@
+{
+  "values": [
+    "univom:fuel_rod_leu",
+    "univom:fuel_rod_hdu",
+    "univom:fuel_rod_heu",
+    "univom:fuel_rod_mox",
+    "univom:fuel_rod_hdp",
+    "univom:fuel_rod_nq_am_si",
+    "univom:fuel_rod_enriched_nq",
+    "univom:fuel_rod_naquadria"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/muon_tracking_machine_casing"
+    }
+  }
+}

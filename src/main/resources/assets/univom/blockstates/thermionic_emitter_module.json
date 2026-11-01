@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/thermionic_emitter_module"
+    }
+  }
+}

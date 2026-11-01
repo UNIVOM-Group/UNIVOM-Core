@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "univom:block/machine/control_rod_insert_bus",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "univom:block/machine/control_rod_insert_bus",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/control_rod_insert_bus"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/control_rod_insert_bus",
+      "y": 180
+    },
+    "facing=up": {
+      "univom:z": 180,
+      "model": "univom:block/machine/control_rod_insert_bus",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "univom:block/machine/control_rod_insert_bus",
+      "y": 270
+    }
+  }
+}

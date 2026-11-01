@@ -1,0 +1,43 @@
+{
+  "contents": [
+    {
+      "type": "atom",
+      "index": 0,
+      "element": "Cl",
+      "x": 0.86603,
+      "y": -0.16667
+    },
+    {
+      "type": "atom",
+      "index": 1,
+      "element": "N",
+      "x": 0.0,
+      "y": 0.33333
+    },
+    {
+      "type": "atom",
+      "index": 2,
+      "element": "O",
+      "x": -0.86603,
+      "y": -0.16667
+    },
+    {
+      "type": "bond",
+      "a": 0,
+      "b": 1,
+      "lines": [
+        "solid"
+      ]
+    },
+    {
+      "type": "bond",
+      "a": 1,
+      "b": 2,
+      "lines": [
+        "solid",
+        "solid"
+      ],
+      "centered": true
+    }
+  ]
+}

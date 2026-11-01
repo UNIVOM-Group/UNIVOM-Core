@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "univom:item/silicon_solar_grade_seed_crystal"
+  }
+}

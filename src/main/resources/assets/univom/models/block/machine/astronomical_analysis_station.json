@@ -1,0 +1,86 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "univom:astronomical_analysis_station",
+  "texture_overrides": {
+    "all": "univom:block/casings/solid/machine_casing_ncct_steel"
+  },
+  "variants": {
+    "is_formed=false,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front"
+        }
+      }
+    },
+    "is_formed=false,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front"
+        }
+      }
+    },
+    "is_formed=false,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active",
+          "overlay_front_emissive": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active_emissive"
+        }
+      }
+    },
+    "is_formed=false,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active",
+          "overlay_front_emissive": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active_emissive"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=idle": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=suspend": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=waiting": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active",
+          "overlay_front_emissive": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active_emissive"
+        }
+      }
+    },
+    "is_formed=true,recipe_logic_status=working": {
+      "model": {
+        "parent": "gtceu:block/machine/template/cube_all/sided",
+        "textures": {
+          "all": "univom:block/casings/solid/machine_casing_ncct_steel",
+          "overlay_front": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active",
+          "overlay_front_emissive": "univom:block/multiblock/astronomical_analysis_station/overlay_front_active_emissive"
+        }
+      }
+    }
+  }
+}

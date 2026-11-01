@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "gtceu:machine",
+  "machine": "univom:iv_wireless_energy_output_hatch_4096a",
+  "replaceable_textures": [
+    "bottom",
+    "top",
+    "side"
+  ],
+  "variants": {
+    "is_formed=false": {
+      "model": {
+        "parent": "univom:block/machine/part/wireless_energy_output_hatch",
+        "textures": {
+          "bottom": "gtceu:block/casings/voltage/iv/bottom",
+          "side": "gtceu:block/casings/voltage/iv/side",
+          "top": "gtceu:block/casings/voltage/iv/top"
+        }
+      }
+    },
+    "is_formed=true": {
+      "model": {
+        "parent": "univom:block/machine/part/wireless_energy_output_hatch",
+        "textures": {
+          "bottom": "gtceu:block/casings/voltage/iv/bottom",
+          "side": "gtceu:block/casings/voltage/iv/side",
+          "top": "gtceu:block/casings/voltage/iv/top"
+        }
+      }
+    }
+  }
+}

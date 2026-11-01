@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "univom:block/casings/solid/machine_casing_superconducting_magnetic_trap_ctm"
+    }
+}

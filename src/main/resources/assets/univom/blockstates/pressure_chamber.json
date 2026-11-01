@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "univom:block/machine/pressure_chamber",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/pressure_chamber"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/pressure_chamber",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "univom:block/machine/pressure_chamber",
+      "y": 270
+    }
+  }
+}

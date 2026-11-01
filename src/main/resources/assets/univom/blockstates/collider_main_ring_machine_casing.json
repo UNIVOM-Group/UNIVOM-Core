@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "univom:block/collider_main_ring_machine_casing"
+    }
+  }
+}

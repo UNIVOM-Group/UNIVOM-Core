@@ -1,0 +1,7 @@
+{
+    "parent": "gtceu:block/overlay/2_layer/front_emissive",
+    "textures": {
+        "overlay": "univom:block/overlay/machine/overlay_redstone_signal_hatch",
+        "overlay_emissive": "univom:block/overlay/machine/overlay_redstone_signal_hatch_emissive"
+    }
+}

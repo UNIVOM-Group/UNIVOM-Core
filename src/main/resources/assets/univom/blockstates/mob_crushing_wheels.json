@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "univom:block/variant/mob_crushing_wheels"
+    },
+    "active=true": {
+      "model": "univom:block/variant/mob_crushing_wheels_active"
+    }
+  }
+}

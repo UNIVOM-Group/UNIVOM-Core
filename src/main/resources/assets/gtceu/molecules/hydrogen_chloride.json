@@ -1,0 +1,7 @@
+{
+  "contents": [
+    { "type": "atom", "index": 0, "element": "H", "x": 0.0, "y": 0.0 },
+    { "type": "atom", "index": 1, "element": "Cl", "x": 1.0, "y": 0.0 },
+    { "type": "bond", "a": 0, "b": 1 }
+  ]
+}

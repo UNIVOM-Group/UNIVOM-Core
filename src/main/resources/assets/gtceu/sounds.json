@@ -1,0 +1,11 @@
+{
+  "radio_frequency_source_chamber": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "gtceu:radio_frequency_source_chamber"
+      }
+    ],
+    "subtitle": "gtceu.subtitle.radio_frequency_source_chamber"
+  }
+}

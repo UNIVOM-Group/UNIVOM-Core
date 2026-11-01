@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "univom:block/casings/transparent/fission_glass_ctm"
+    }
+}

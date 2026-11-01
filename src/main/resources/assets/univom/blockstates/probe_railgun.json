@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "univom:block/machine/probe_railgun",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/probe_railgun"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/probe_railgun",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "univom:block/machine/probe_railgun",
+      "y": 270
+    }
+  }
+}

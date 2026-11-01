@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "#side",
+    "side": "univom:block/casings/solid/machine_casing_agriculture_safe",
+    "top": "univom:block/casings/unique/industrial_mud_box"
+  }
+}

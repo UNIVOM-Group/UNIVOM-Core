@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "univom:block/machine/extended_me_pattern_buffer_proxy",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "univom:block/machine/extended_me_pattern_buffer_proxy",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "univom:block/machine/extended_me_pattern_buffer_proxy"
+    },
+    "facing=south": {
+      "model": "univom:block/machine/extended_me_pattern_buffer_proxy",
+      "y": 180
+    },
+    "facing=up": {
+      "gtceu:z": 180,
+      "model": "univom:block/machine/extended_me_pattern_buffer_proxy",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "univom:block/machine/extended_me_pattern_buffer_proxy",
+      "y": 270
+    }
+  }
+}

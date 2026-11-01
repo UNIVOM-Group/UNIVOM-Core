@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "univom:block/casings/unique/electromagnetic_focusing_lens_module"
+  }
+}
